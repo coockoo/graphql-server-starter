@@ -1,0 +1,39 @@
+{
+  "name": "graphql-server-starter",
+  "version": "1.0.0",
+  "description": "GraphQL Server Starter",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --config .nodemon.config.json src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coockoo/graphql-server-starter.git"
+  },
+  "keywords": [
+    "graphql",
+    "server",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Oleksandr Bondarchuk <alex.coockoo@gmail.com> (https://github.com/coockoo)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-plugin-require-path-exists": "^1.1.9",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "http-shutdown": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.5",
+    "pg": "^8.3.3"
+  }
+}
